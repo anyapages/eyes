@@ -1,2 +1,2 @@
-# light-of-my-eyes
+# eyes
 Eyes follow cursor
