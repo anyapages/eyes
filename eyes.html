@@ -1,63 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
-<style> 
-body { 
-  background-color: rgb(236, 145, 114);
-}
+<head>
+<link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
 
-.eyes {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
-  text-align: center;
-}
-
-.eye {
-  width: 220px;
-  height: 150px;
-  background: #fff;
-  display: inline-block;
-  margin: 40px;
-  border-radius: 50%;
-  position: relative;
-  overflow: hidden;
-}
-
-.ball {
-  width: 95px;
-  height: 95px;
-  background: rgb(108, 93, 243);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-}
-</style>
-
+  <!-- eyes content begin -->
   <body>
     <div class="eyes">
       <div class="eye">
-        <div class="ball"></div>
+        <div class="pupil"></div>
       </div>
       <div class="eye">
-        <div class="ball"></div>
+        <div class="pupil"></div>
       </div>
     </div>
   </body>
+  <!-- game content close -->
 
   <script>
-    var balls = document.getElementsByClassName("ball");
+    var pupils = document.getElementsByClassName("pupil");
     document.onmousemove = () => {
       var x = (event.clientX * 100) / window.innerWidth + "%";
       var y = (event.clientY * 100) / window.innerHeight + "%";
 
       for (let i = 0; i < 2; i++) {
-        balls[i].style.left = x;
-        balls[i].style.top = y;
-        balls[i].transfoorm = "translate(-" + x + ",-" + y + ")";
+        pupils[i].style.left = x;
+        pupils[i].style.top = y;
+        pupils[i].transfoorm = "translate(-" + x + ",-" + y + ")";
       }
     };
   </script>

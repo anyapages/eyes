@@ -1,0 +1,33 @@
+body { 
+    background-color: lightsalmon;
+  }
+  
+  .eyes {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+  }
+  
+  .eye {
+    width: 220px;
+    height: 150px;
+    background: lavenderblush;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .pupil {
+    width: 95px;
+    height: 95px;
+    background: mediumslateblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
