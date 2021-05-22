@@ -1,3 +1,4 @@
 # eyes
-Eyes follow cursor 👀
+
+🎯 The goal is to demonstate eyes that follow your cursor 👀
 
