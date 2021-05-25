@@ -1,10 +1,20 @@
-# eyes
+# Eyes follow mouse 👀
 
-🎯 The goal is to create a web page with two eyes that follow your mouse movement. 👀
+Eyes follow mouse is a web page with two eyes that follow your mouse movement. 
 
-## Bind the `DOM`
-The mouse movement event is used to update the position of the `eye` element displayed on the page.
+## Installation
+Implement `DOM` data binding in JavaScript where the mouse movement event is used to update the position of the eye element displayed on the page.
 
+## Usage
 <img src = 'example.png' width="340" height="290"> 
 
-<a href="https://anyapages.github.io/eyes.html">Interactive version</a>
+[Interactive version](https://anyapages.github.io/eyes.html)
+
+## Roadmap
+I have created an animated penguin version and am planning to create more functions and characters.
+
+## Authors and acknowledgment
+MIT
+
+## License
+[MIT](https://github.com/anyapages/eyes/blob/main/LICENSE)
