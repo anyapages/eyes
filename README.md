@@ -11,7 +11,12 @@ Implement `DOM` data binding in JavaScript where the mouse movement event is use
 [Interactive version](https://anyapages.github.io/eyes.html)
 
 ## Roadmap
-I have created an animated penguin version and am planning to create more functions and characters.
+I have created an animated penguin version and been planning to create more functions and characters.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
 
 ## Authors and acknowledgment
 MIT
