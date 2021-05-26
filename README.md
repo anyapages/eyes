@@ -3,7 +3,7 @@
 Eyes follow mouse is a web page with two eyes that follow your mouse movement. 
 
 ## Installation
-Implement `DOM` data binding in JavaScript where the mouse movement event is used to update the position of the eye element displayed on the page.
+You can access an HTML DOM `<var>` element by using `getElementsByClassName("pupil")` to update the position of the pupil element displayed on the page, e.g., `var pupils = document.getElementsByClassName("pupil")`
 
 ## Usage
 <img src = 'example.png' width="340" height="290"> 
