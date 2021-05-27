@@ -8,7 +8,7 @@ You can access an HTML DOM `<var>` element by using `getElementsByClassName("pup
 ## Usage
 <img src = 'example.png' width="340" height="290"> 
 
-[Interactive version](https://anyapages.github.io/eyes.html)
+[Alternative version](https://anyapages.github.io/eyes.html)
 
 ## Roadmap
 - Create more functions with various characters.
